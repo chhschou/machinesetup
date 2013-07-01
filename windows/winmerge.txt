@@ -1,0 +1,1 @@
+Tortoisegit: "C:/Program Files (x86)/WinMerge/WinMergeU.exe" /r /e /x /u /wl %base %mine "C:/Program Files (x86)/WinMerge/WinMergeU.exe" /e /u %merged

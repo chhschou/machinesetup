@@ -37,3 +37,4 @@ nosetests.xml
 # misc
 *~
 *.bak
+.DS_Store

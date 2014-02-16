@@ -1,0 +1,40 @@
+############# config ##################
+#
+# Default variables are good enough.
+# set base_path    /var/spool/apt-mirror
+#
+# set mirror_path  $base_path/mirror
+# set skel_path    $base_path/skel
+# set var_path     $base_path/var
+# set cleanscript $var_path/clean.sh
+# set defaultarch  <running host architecture>
+# set postmirror_script $var_path/postmirror.sh
+# set run_postmirror 0
+set nthreads     20
+set _tilde 0
+#
+############# end config ##############
+
+
+## Precise (12.04)
+deb http://cn.archive.ubuntu.com/ubuntu precise main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu precise-security main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu precise-updates main restricted universe multiverse
+deb http://cn.archive.ubuntu.com/ubuntu precise-backports main restricted universe multiverse
+
+deb http://archive.cononical.com/ubuntu precise partner
+
+deb http://extras.ubuntu.com/ubuntu precise main
+
+## Precise ppa
+deb http://ppa.launchpad.net/apt-fast/stable/ubuntu precise main
+deb http://ppa.launchpad.net/webupd8team/java/ubuntu precise main
+deb http://ppa.launchpad.net/git-core/ppa/ubuntu precise main
+deb http://ppa.launchpad.net/nginx/stable/ubuntu precise main
+deb http://apt.postgresql.org/pub/repos/apt/ precise-pgdg main
+deb http://ppa.launchpad.net/ubuntugis/ppa/ubuntu precise main
+
+
+clean http://cn.archive.ubuntu.com/ubuntu
+clean http://archive.ubuntu.com/ubuntu
+clean http://extras.ubuntu.com/ubuntu

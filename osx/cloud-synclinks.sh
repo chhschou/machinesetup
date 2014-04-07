@@ -41,15 +41,8 @@ function createhardlink {
 }
 
 
-## ubuntu one
-# ubuntu one doesn't follow symlinks, either do a hard link or
-# add folder to sync from its ui
-# currently syncing cdcorp, personal
-
 
 ## Copy
-rmsymlink ~/Copy/tools
-createsymlink ~/cchou/tools/ ~/Copy/tools
 rmsymlink ~/Copy/dev
 createsymlink ~/cchou/dev/ ~/Copy/dev
 
@@ -60,8 +53,15 @@ rmsymlink ~/Dropbox/pm
 createsymlink ~/cchou/pm ~/Dropbox/pm
 
 ## gdrive
-rmhardlink ~/Google\ Drive/pm
-createhardlink ~/cchou/pm ~/Google\ Drive/pm
+
+## box sync
+rmsymlink ~/Box\ Sync/cdcorp
+createsymlink ~/cchou/cdcorp ~/Box\ Sync/cdcorp
+rmsymlink ~/Box\ Sync/personal
+createsymlink ~/cchou/personal ~/Box\ Sync/personal
+rmsymlink ~/Box\ Sync/pm
+createsymlink ~/cchou/pm ~/Box\ Sync/pm
+
 
 ## kanbox
 rmhardlink ~/Kupan.localized/french

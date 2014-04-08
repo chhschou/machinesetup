@@ -45,6 +45,12 @@ function createhardlink {
 ## Copy
 rmsymlink ~/Copy/dev
 createsymlink ~/cchou/dev/ ~/Copy/dev
+rmsymlink ~/Copy/cdcorp
+createsymlink ~/cchou/cdcorp ~/Copy/cdcorp
+rmsymlink ~/Copy/personal
+createsymlink ~/cchou/personal ~/Copy/personal
+rmsymlink ~/Copy/pm
+createsymlink ~/cchou/pm ~/Copy/pm
 
 ## DropBox
 rmsymlink ~/Dropbox/wip
@@ -52,15 +58,6 @@ createsymlink ~/cchou/wip/ ~/Dropbox/wip
 rmsymlink ~/Dropbox/pm
 createsymlink ~/cchou/pm ~/Dropbox/pm
 
-## gdrive
-
-## box sync
-rmsymlink ~/Box\ Sync/cdcorp
-createsymlink ~/cchou/cdcorp ~/Box\ Sync/cdcorp
-rmsymlink ~/Box\ Sync/personal
-createsymlink ~/cchou/personal ~/Box\ Sync/personal
-rmsymlink ~/Box\ Sync/pm
-createsymlink ~/cchou/pm ~/Box\ Sync/pm
 
 
 ## kanbox

@@ -42,6 +42,6 @@ function createhardlink {
 
 ## setup profile and vimrc
 rmsymlink ~/.profile
-createsymlink ~/.profile ~/cchou/tools/machinesetup/osx/.profile 
+createsymlink ~/.profile ~/cchou/machinesetup/osx/.profile 
 rmsymlink ~/.vimrc
-createsymlink ~/.vimrc ~/cchou/tools/machinesetup/vim/.vimrc
+createsymlink ~/.vimrc ~/cchou/machinesetup/vim/.vimrc

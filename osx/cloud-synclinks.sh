@@ -43,27 +43,23 @@ function createhardlink {
 
 
 ## Copy
-rmsymlink ~/Copy/dev
-createsymlink ~/cchou/dev/ ~/Copy/dev
 rmsymlink ~/Copy/cdcorp
-createsymlink ~/cchou/cdcorp ~/Copy/cdcorp
-rmsymlink ~/Copy/personal
-createsymlink ~/cchou/personal ~/Copy/personal
-rmsymlink ~/Copy/pm
-createsymlink ~/cchou/pm ~/Copy/pm
+createsymlink /Users/Shared/admins/cdcorp ~/Copy/CDCorp
+rmsymlink ~/Copy/Serendipia
+createsymlink /Users/Shared/admins/serendipia ~/Copy/SerenDipia
 
 ## DropBox
-rmsymlink ~/Dropbox/wip
-createsymlink ~/cchou/wip/ ~/Dropbox/wip
-rmsymlink ~/Dropbox/pm
-createsymlink ~/cchou/pm ~/Dropbox/pm
+rmsymlink ~/Dropbox/cdcorp
+createsymlink /Users/Shared/admins/cdcorp ~/Dropbox/CDCorp
+rmsymlink ~/Dropbox/Serendipia
+createsymlink /Users/Shared/admins/serendipia ~/Dropbox/SerenDipia
 
 
 
 ## kanbox
-rmhardlink ~/Kupan.localized/french
-createhardlink ~/cchou/french ~/Kupan.localized/french
-rmhardlink ~/Kupan.localized/music
-createhardlink ~/cchou/music ~/Kupan.localized/music
-rmhardlink ~/Kupan.localized/reading
-createhardlink ~/cchou/reading ~/Kupan.localized/reading
+rmsymlink ~/Kupan.localized/french
+createsymlink ~/cchou/french ~/Kupan.localized/french
+rmsymlink ~/Kupan.localized/music
+createsymlink ~/cchou/music ~/Kupan.localized/music
+rmsymlink ~/Kupan.localized/reading
+createsymlink ~/cchou/reading ~/Kupan.localized/reading

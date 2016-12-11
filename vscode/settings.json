@@ -1,0 +1,11 @@
+{
+  "window.zoomLevel": 0,
+  //python
+  // Format the document upon saving.
+  "python.formatting.formatOnSave": true,
+  "python.autoComplete.extraPaths": [
+    "C:/Program Files (x86)/Google/google_appengine",
+    "C:/Program Files (x86)/Google/google_appengine/lib"
+    // TODO: add mac paths
+  ]
+}

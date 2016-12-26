@@ -1,5 +1,5 @@
 " vim: set tw=79 shiftwidth=2 tabstop=2 :
-" vimrc file, Chris Chou, changhsinchou@gmail.com
+" vimrc file, Chris Chou, chhschou@gmail.com
 
 set nocompatible		" use vim defaults
 set number					" enable line numbers

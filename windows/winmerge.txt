@@ -1,3 +1,0 @@
-Tortoisegit: 
-DiffTool ->   "C:/Program Files (x86)/WinMerge/WinMergeU.exe" /r /e /x /u /wl %base %mine 
-MergeTool ->  "C:/Program Files (x86)/WinMerge/WinMergeU.exe" /e /u %merged

@@ -9,4 +9,4 @@ cmd /c mklink /D c:\Users\cchou\dev\deps\opengl\include\GL c:\Users\cchou\dev\de
 cmd /c mklink /D c:\Users\cchou\dev\deps\opengl\lib\GL C:\Users\cchou\dev\deps\opengl\glew-2.0.0\build\vc14\lib\Debug
 
 #vscode
-cmd /c mklink C:\Users\cchou\AppData\Roaming\Code\User\settings.json c:\users\cchou\machinesetup\vscode\settings.json 
+cmd /c mklink C:\Users\cchou\AppData\Roaming\Code\User\settings.json c:\users\cchou\machinesetup\vscode\win\settings.json 
